@@ -1,1 +1,2 @@
-# Neural-Syntax-Code
+# Neural-Syntax
+Code for CVPR 2022 Paper "NEURAL DATA-DEPENDENT TRANSFORM FOR LEARNED IMAGE COMPRESSION".
