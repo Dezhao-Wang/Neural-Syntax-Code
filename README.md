@@ -6,7 +6,7 @@ Author: Dezhao Wang, Wenhan Yang, Yueyu Hu, Jiaying Liu
 
 Arxiv Link: <https://arxiv.org/abs/2203.04963>
 
-Project Page: <https://dezhao-wang.github.io/NeuralSyntax-Website/>
+Project Page: <https://dezhao-wang.github.io/Neural-Syntax-Website/>
 
 ## Evaluation
 
