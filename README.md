@@ -1,8 +1,11 @@
 # Neural-Syntax
 
 Code for CVPR 2022 Paper "NEURAL DATA-DEPENDENT TRANSFORM FOR LEARNED IMAGE COMPRESSION"
+
 Author: Dezhao Wang, Wenhan Yang, Yueyu Hu, Jiaying Liu
+
 Arxiv Link: <https://arxiv.org/abs/2203.04963>
+
 Project Page: <https://dezhao-wang.github.io/NeuralSyntax-Website/>
 
 ## Evaluation
