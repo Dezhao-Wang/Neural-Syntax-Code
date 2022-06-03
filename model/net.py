@@ -364,8 +364,8 @@ class Net(nn.Module):
 
     self.y_sampler = BlockSample((b,N - M,h//8,w//8))
     self.h_sampler = BlockSample((b, N,h//8,w//8), False)
-    self.test_y_sampler = BlockSample((b,N - M,h//8,w//8))
-    self.test_h_sampler = BlockSample((b,N,h//8,w//8), False)
+    self.test_y_sampler = BlockSample((b,N - M,th//8,tw//8))
+    self.test_h_sampler = BlockSample((b,N,th//8,tw//8), False)
 
     
     self.HAN = HAN(is_high=self.is_high)
@@ -456,7 +456,7 @@ class Net(nn.Module):
       z2_likelihoods = self.entropy_bottleneck_z2(z2_rounded, z2_sigma, z2_mu)
       
       # Content
-      z3_content_mu, z3_content_sigma = self.prediction_model(z3_content_rounded, h2, self.y_sampler, self.h_sampler)
+      z3_content_mu, z3_content_sigma = self.prediction_model(z3_content_rounded, h2, self.test_y_sampler, self.test_h_sampler)
       z3_content_likelihoods = self.entropy_bottleneck_z3(z3_content_rounded, z3_content_sigma, z3_content_mu)
       
       # Syntax
